@@ -45,9 +45,22 @@
 >
     O Parametro "-m" define que estamos informando uma mensagem referente aos códigos que estamos salvando.
 
-    ##Remover login do terminal
+    ## Remover login do terminal
     > git config --unset-all user.name
 
     > git config --unset-all user.email
-    
+
     > git config --unset-all credential.helper
+
+
+## Clonar um projeto (Baixar)
+> git clone https://github.com/usuario/projeto.git
+>
+    "usuario" nome do usuario git;
+    "projeto" projeto que sera baixado.
+
+Acesse o diretorio do projeto clonado apos o download.
+> cd projeto
+
+Para visualizar no editor vscode.
+> code.
