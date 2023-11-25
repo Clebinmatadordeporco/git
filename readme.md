@@ -44,3 +44,8 @@
 > git commit -m "Mensagem do Commit"
 >
     O Parametro "-m" define que estamos informando uma mensagem referente aos códigos que estamos salvando.
+
+    ##Remover login do terminal
+    > git config --unset-all user.name
+    > git config --unset-all user.email
+    > git config --unset-all credential.helper
