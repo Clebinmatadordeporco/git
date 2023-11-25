@@ -63,4 +63,14 @@ Acesse o diretorio do projeto clonado apos o download.
 > cd projeto
 
 Para visualizar no editor vscode.
-> code.
+> code .
+
+## Salvar uma modificação
+> git status
+> git add .
+
+## Salvar mudanças
+> git commit -m "Mensagem"
+
+## Enviar para o servidor online
+> git push -u origin master
